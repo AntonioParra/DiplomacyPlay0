@@ -179,6 +179,63 @@
                 "Rusia tiene 4 unidades y controla 5 centros de suministro: puede construir una unidad",
                 "Turquía tiene 3 unidades y controla 4 centros de suministro: puede construir una unidad"
             ]
-        }
+        },
+        "countryCommands": [{
+            "name": "Alemania",
+            "commands": [{
+                "text": "Construir flota en Kiel",
+                "resolution": true
+            }, {
+                "text": "Construir ejercito en Berlin",
+                "resolution": true
+            }]
+		}, {
+            "name": "Austria",
+            "commands": [{
+                "text": "Construir ejercito en Vienna",
+                "resolution": true
+            },{
+                "text": "Construir ejercito en Budapest",
+                "resolution": true
+            }]
+		}, {
+            "name": "Francia",
+            "commands": [{
+                "text": "Construir flota en Brest",
+                "resolution": true
+            },{
+                "text": "Construir ejercito en Paris",
+                "resolution": true
+            }]
+		}, {
+            "name": "Italia",
+            "commands": [{
+                "text": "Construir flota en Napoli",
+                "resolution": true
+            }]
+		}, {
+            "name": "Inglaterra",
+            "commands": [{
+                "text": "Construir ejercito en Edimburgh",
+                "resolution": true
+            }]
+		}, {
+            "name": "Rusia",
+            "commands": [{
+                "text": "Construir ejercito en Saint Petersburg NC",
+                "resolution": true
+            }]
+		}, {
+            "name": "Turquía",
+            "commands": [{
+                "text": "Construir flota en Ankara",
+                "resolution": true
+            }]
+		}]
+    }]
+}, {
+    "turnNumber": 3,
+    "steps": [{
+        "type": "a"
     }]
 }]
