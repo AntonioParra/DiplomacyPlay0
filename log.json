@@ -236,6 +236,125 @@
 }, {
     "turnNumber": 3,
     "steps": [{
+        "type": "a",
+        "countryCommands": [{
+            "name": "Alemania",
+            "commands": [{
+                "text": "La flota de Kiel se mueve a Helgoland Bight",
+                "resolution": true
+            },{
+                "text": "La flota de Denmark apoya a la flota que se mueve de Kiel a Helgoland Bight",
+                "resolution": true
+            },{
+                "text": "El ejercito de Munich se mueve a Ruhr",
+                "resolution": true
+            },{
+                "text": "El ejercito de Holland se mueve a Belgium",
+                "resolution": true
+            },{
+                "text": "El ejercito de Berlin se mueve a Silesia",
+                "resolution": true
+            }]
+        },{
+            "name": "Austria",
+            "commands": [{
+                "text": "El ejercito de Vienna se mueve a Galicia",
+                "resolution": false,
+                "comment": "Conflicto 1vs1 contra el ejercito de Warsaw que se mueve a Galicia: no puede completar el movimiento"
+            },{
+                "text": "El ejercito de Budapest apoya al ejercito de Rumania",
+                "resolution": true
+            },{
+                "text": "El ejercito de Serbia se mueve a Bulgaria",
+                "resolution": false,
+                "comment": "Conflicto 2vs2 contra el ejercito de Bulgaria con apoyo de la flota de Constantinople: no puede completar el movimiento"
+            },{
+                "text": "El ejercito de Rumania apoya al ejercito que se mueve de Serbia a Bulgaria",
+                "resolution": false,
+                "comment": "Ha participado en un conflicto con el ejercito de Stevastopol que se mueve a Rumania: apoyo anulado"
+            },{
+                "text": "La flota del Adriatic Sea se mueve a Ionian Sea permitiendo el paso",
+                "resolution": true
+            }]
+        },{
+            "name": "Francia",
+            "commands": [{
+                "text": "La flota de Portugal se mueve Spain SC",
+                "resolution": true
+            },{
+                "text": "El ejercito de Spain se muebe a Marseilles",
+                "resolution": true
+            },{
+                "text": "El ejercito de Marseilles se mueve a Burgundy",
+                "resolution": true
+            },{
+                "text": "El ejercito de Paris se mueve a Picardy",
+                "resolution": true
+            },{
+                "text": "La flota de Brest se mueve a English Channel",
+                "resolution": true
+            }]
+        },{
+            "name": "Italia",
+            "commands": [{
+                "text": "La flota del Ionian Sea se mueve al Aegean Sea",
+                "resolution": true
+            },{
+                "text": "La flota de Napoli se mueve a Tyrhennian Sea",
+                "resolution": true
+            },{
+                "text": "El ejercito de Greece apoya al ejercito de Serbia que se mueve a Bulgaria",
+                "resolution": true
+            }]
+        },{
+            "name": "Inglaterra",
+            "commands": [{
+                "text": "La flota de London apoya a la flota de North Sea",
+                "resolution": true
+            },{
+                "text": "La flota de North Sea apoya al ejercito de Norway",
+                "resolution": true
+            }]
+        },{
+            "name": "Rusia",
+            "commands": [{
+                "text": "El ejercito de Warsaw se mueve a Galicia",
+                "resolution": false,
+                "comment": "Conflicto 1vs1 contra el ejercito de Vienna que se mueve a Galicia: no puede completar el movimiento"
+            },{
+                "text": "La flota de Sevastopol se mueve a Rumania",
+                "resolution": false,
+                "comment": "Conflicto 2vs2 contra el ejercito de Rumania con apoyo del ejercito de Budapest: no puede completar el movimiento"
+            },{
+                "text": "El ejercito de Ukraine apoya a la flota de Sevastopol que se mueve a Rumania",
+                "resolution": true
+            },{
+                "text": "La flota de Saint Petersburg se mueve a Barents Sea",
+                "resolution": true
+            }]
+        },{
+            "name": "Turquía",
+            "commands": [{
+                "text": "El ejercito de Bulgaria apoya al ejercito de Ukraine que se mueve a Rumania",
+                "resolution": false,
+                "comment": "No existe el movimiento: no puede completar el movimiento"
+            },{
+                "text": "La flota de Constantinople apoya al ejercito de Bulgaria",
+                "resolution": true
+            },{
+                "text": "Flota de Ankara se mueve a Black Sea",
+                "resolution": true
+            }]
+        }]
+    }, {
+        "type": "b",
+        "info": {
+            "comment": "Ningún ejercito debe retirarse"
+        }
+    }]
+},{
+    "turnNumber": 3,
+    "steps": [{
         "type": "a"
     }]
 }]
