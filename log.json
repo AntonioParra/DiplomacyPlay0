@@ -355,6 +355,120 @@
 },{
     "turnNumber": 4,
     "steps": [{
-        "type": "a"
+        "type": "a",
+        "info": {
+            "comment": "Inglaterra cae en desorden civil"
+        },
+        "countryCommands": [{
+            "name": "Alemania",
+            "commands": [{
+                "text": "El ejercito de Silesia se mueve a Munich",
+                "resolution": true
+            },{
+                "text": "El ejercito de Ruhr apoya al ejercito de Belgium",
+                "resolution": true
+            },{
+                "text": "La flota de Helgoland Bight apoya a la flota de Denmark",
+                "resolution": true
+            },{
+                "text": "La flota de Denmark apoya a la flota de Helgoland Bight",
+                "resolution": true
+            }]
+        }, {
+            "name": "Austria",
+            "commands": [{
+                "text": "La flota de Ionian Sea se mueve a Tyrhennian Sea permitiendo el paso",
+                "resolution": true
+            },{
+                "text": "El ejercito de Vienna se mueve a Galicia",
+                "resolution": true
+            },{
+                "text": "El ejercito de Budapest apoya al ejercito de Rumania",
+                "resolution": true
+            },{
+                "text": "El ejercito de Budapest apoya al ejercito de Rumania",
+                "resolution": true
+            },{
+                "text": "El ejercito de Serbia se mueve a Bulgaria",
+                "resolution": false,
+                "comment": "Conflicto 2vs2 contra el ejercito de Bulgaria, con apoyo del ejercito de Greece: no puede completar el movimiento"
+            },{
+                "text": "El ejercito de Rumania apoya al ejercito que se mueve de Serbia a Bulgaria",
+                "resolution": false,
+                "comment": "Ha participado en un conflicto con el ejercito de Ukraine que se mueve a Rumania: apoyo anulado"
+            }]
+        }, {
+            "name": "Francia",
+            "commands": [{
+                "text": "El ejercito de Picardy se mueve a Wales via transporte",
+                "resolution": true
+            }, {
+                "text": "La flota de English Channel transporta al ejercito de Picardy que se mueve a Wales via transporte",
+                "resolution": true
+            }, {
+                "text": "El ejercito de Marseilles apoya al ejercito de Burgundy",
+                "resolution": true
+            }, {
+                "text": "El ejercito de Burgundy apoya al ejercito de Marseilles",
+                "resolution": true
+            }, {
+                "text": "La flota de Spain SC se mueve a Gulf of Lyon",
+                "resolution": true
+            }]
+        }, {
+            "name": "Italia",
+            "commands": [{
+                "text": "La flota de Tyrhennian Sea se mueve a Tunisia",
+                "resolution": true
+            }, {
+                "text": "El ejercito de Greece apoya al ejercito de Serbia que se mueve a Bulgaria",
+                "resolution": true
+            }, {
+                "text": "La flota de Aegean Sea apoya al ejercito de Serbia que se mueve a Bulgaria",
+                "resolution": false,
+                "comment": "Ha participado en un conflicto con la flota de Constantinople: apoyo anulado"
+            }]
+        }, {
+            "name": "Rusia",
+            "commands": [{
+                "text": "El ejercito de Ukraine se mueve a Rumania",
+                "resolution": false,
+                "comment": "Conflicto 2vs2 contra el ejercito de Rumania, con apoyo de Stevastopol contra apoyo de Budapest: no puede completar el movimiento"
+            }, {
+                "text": "La flota de Stevastopol apoya al ejercito de Ukraine que se mueve a Rumania",
+                "resolution": true
+            }]
+        }, {
+            "name": "Turquía",
+            "commands": [{
+                "text": "La flota de Constantinople se mueve a Aegean Sea",
+                "resolution": true
+            }, {
+                "text": "La flota de Black Sea apoya al ejercito de Ukraine que se mueve a Rumania",
+                "resolution": true
+            }, {
+                "text": "El ejercito de Bulgaria apoya al ejercito de Ukraine que se mueve a Rumania",
+                "resolution": false,
+                "comment": "Ha participado en un conflicto con el ejercito de Serbia que se mueve a Bulgaria: apoyo anulado"
+            }]
+        }]
+    }, {
+        "type": "b",
+        "info": {
+            "comment": "Ningún ejercito debe retirarse"
+        }
+    }, {
+        "type": "c",
+        "info": {
+            "list": [
+                "Alemania tiene 5 unidades y controla 6 centros de suministro: puede construir una unidad",
+                "Austria tiene 5 unidades y controla 5 centros de suministro",
+                "Francia tiene 5 unidades y controla 5 centros de suministro",
+                "Italia tiene 4 unidades y controla 5 centros de suministro: puede construir una unidad",
+                "Inglaterra tiene 4 unidades y controla 4 centros de suministro",
+                "Rusia tiene 5 unidades y controla 5 centros de suministro",
+                "Turquía tiene 4 unidades y controla 4 centros de suministro"
+            ]
+        }
     }]
 }]
