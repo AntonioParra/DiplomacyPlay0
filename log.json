@@ -469,6 +469,24 @@
                 "Rusia tiene 5 unidades y controla 5 centros de suministro",
                 "Turquía tiene 4 unidades y controla 4 centros de suministro"
             ]
-        }
+        },
+        "countryCommands": [{
+            "name": "Alemania",
+            "commands": [{
+                "text": "Construir ejercito en Berlin",
+                "resolution": true
+            }]
+        },{
+            "name": "Italia",
+            "commands": [{
+                "text": "Construir flota en Roma",
+                "resolution": true
+            }]
+        }]
+    }]
+}, {
+    "turnNumber": 5,
+    "steps": [{
+        "type": "a"
     }]
 }]
