@@ -487,6 +487,135 @@
 }, {
     "turnNumber": 5,
     "steps": [{
-        "type": "a"
+        "type": "a",
+        "countryCommands": [{
+            "name": "Alemania",
+            "commands": [{
+                "text": "El ejercito de Berlin se mueve a Silesia",
+                "resolution": true
+            },{
+                "text": "El ejercito de Ruhr se mueve a Burgundy",
+                "resolution": true
+            },{
+                "text": "El ejercito de Munich apoya al ejercito que se mueve de Ruhr a Burgundy",
+                "resolution": true
+            },{
+                "text": "El ejercito de Belgium se mueve a Picardy",
+                "resolution": true
+            },{
+                "text": "La flota de Helgoland Bight se mueve a North Sea",
+                "resolution": true,
+                "comment": "Conflicto 2vs1 contra el la flota de North Sea: puede completar el movimiento"
+            },{
+                "text": "La flota de Denmark apoya a la flota de Helgoland Bight que se mueve a North Sea",
+                "resolution": true
+            }]
+        }, {
+            "name": "Austria",
+            "commands": [{
+                "text": "La flota de Tyrhennian Sea se apoya a la flota de Roma que se mueve a Tuscany",
+                "resolution": true
+            },{
+                "text": "El ejercito de Galicia se mueve a Ukraine",
+                "resolution": false,
+                "comment": "Conflicto 1vs1 contra el ejercito de Ukraine: no puede completar el movimiento"
+            },{
+                "text": "El ejercito de Budapest apoya al ejercito de Rumania",
+                "resolution": true
+            },{
+                "text": "El ejercito de Serbia se mueve a Bulgaria",
+                "resolution": false,
+                "comment": "Conflicto 2vs2 contra el ejercito de Bulgaria con apoyo de la flota de Black Sea: no puede completar el movimiento"
+            },{
+                "text": "El ejercito de Rumania apoya al ejercito de Serbia que se mueve a Bulgaria",
+                "resolution": false,
+                "comment": "Ha participado en un conflicto con la flota de Stevastopol que se mueve a Bulgaria: apoyo anulado"
+            }]
+        },{
+            "name": "Francia",
+            "commands": [{
+                "text": "La flota de Gulf of Lyon se mueve a Piamonte",
+                "resolution": true,
+                "comment": "Conflicto 2vs1 contra el ejercito de Piemonte que se mueve a Marseilles: puede completar el movimiento"
+            },{
+                "text": "El ejercito de Marseilles apoya a la flota de Gulf of Lyon que se muebe a Piamonte",
+                "resolution": true
+            },{
+                "text": "El ejercito de Burgundy se mueve a Gascony",
+                "resolution": true
+            },{
+                "text": "La flota de English Channel se mueve a London",
+                "resolution": true,
+                "comment": "Conflicto 2vs1 contra la flota de London: puede completar el movimiento"
+            },{
+                "text": "El ejercito de Wales apoya a la flota de English Channel que se mueve a London",
+                "resolution": true
+            }]
+        }, {
+            "name": "Italia",
+            "commands": [{
+                "text": "La flota de Tunisia se mueve a West Mediterranean",
+                "resolution": true
+            },{
+                "text": "La flota de Roma se mueve a Tuscany",
+                "resolution": true
+            },{
+                "text": "El ejercito de Piamonte se mueve a Marseilles",
+                "resolution": false,
+                "comment": "Conflicto 1vs1 contra el ejercito de Marseilles: no puede completar el movimiento"
+            },{
+                "text": "El ejercito de Greece apoya al ejercito de Serbia que se mueve a Bulgaria",
+                "resolution": true
+            },{
+                "text": "La flota de Aegean Sea apoya al ejercito de Serbia que se mueve a Bulgaria",
+                "resolution": false,
+                "comment":"Ha participado en un conflicto con la flota de Constantinople: apoyo anulado"
+            }]
+        }, {
+            "name": "Rusia",
+            "commands": [{
+                "text": "El ejercito de Varsovia se mueve a Galicia",
+                "resolution": true,
+                "comment": "Conflicto 2vs1 contra el ejercito de Galicia: puede completar el movimiento"
+            },{
+                "text": "El ejercito de Ukraine apoya al ejercito de Varsovia que se mueve a Galicia",
+                "resolution": true
+            },{
+                "text": "La flota de Stevastopol se mueve a Rumania",
+                "resolution": true,
+                "comment": "Conflicto 1vs1 contra el ejercito de Rumania: no puede completar el movimiento"
+            },{
+                "text": "La flota de Barents Sea se mueve a Norway",
+                "resolution": true,
+                "comment": "Conflicto 2vs1 contra el ejercito de Norway: puede completar el movimiento"
+            },{
+                "text": "La flota de Sweden apoya a la flota de Barents Sea que se mueve a Norway",
+                "resolution": true
+            }]
+        }, {
+            "name": "Turquía",
+            "commands": [{
+                "text": "El ejercito de Smyrna se mueve a Armenia",
+                "resolution": true
+            },{
+                "text": "La flota de Constantinopla se mueve a Aegean Sea",
+                "resolution": false,
+                "comment": "Conflicto 1vs1 contra la flota de Aegean Sea: no puede completar el movimiento"
+            },{
+                "text": "La flota de Black Sea apoya al ejercito de Bulgaria",
+                "resolution": true
+            }]
+        }]
+    },{
+        "type": "b",
+        "info": {
+            "list":[
+                "El ejercito austriaco de Galicia debe retirarse",
+                "El ejercito italiano de Piemonte debe retirarse",
+                "La flota inglesa de North Sea debe retirarse",
+                "La flota inglesa de London debe retirarse",
+                "El ejercito inglés de Norway debe retirarse"
+            ]
+        }
     }]
 }]
