@@ -616,6 +616,24 @@
                 "La flota inglesa de London debe retirarse",
                 "El ejercito inglés de Norway debe retirarse"
             ]
-        }
+        },
+        "countryCommands": [{
+            "name": "Austria",
+            "commands": [{
+                "text": "El ejercito de Galicia se retira a Vienna",
+                "resolution": true
+            },{
+                "name": "Italia",
+                "commands": [{
+                    "text": "El ejercito de Piemonte se retira a Venezia",
+                    "resolution": true
+                }]
+            }]
+        }]
+    }]
+},{
+    "turnNumber": 6,
+    "steps": [{
+        "type": "a"
     }]
 }]
