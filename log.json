@@ -634,6 +634,124 @@
 },{
     "turnNumber": 6,
     "steps": [{
-        "type": "a"
+        "type": "a",
+        "countryCommands": [{
+            "name": "Alemania",
+            "commands": [{
+                "text": "La flota de North Sea se mueve a English Channel",
+                "resolution": true
+            },{
+                "text": "El ejercito de Burgundy se mueve a Paris",
+                "resolution": true
+            },{
+                "text": "El ejercito de Munich se mueve a Burgundy",
+                "resolution": true
+            },{
+                "text": "El ejercito de Picardy apoya al ejercito de Burgundy que se mueve a Paris",
+                "resolution": true
+            }]
+        },{
+            "name": "Austria",
+            "commands": [{
+                "text": "La flota de Tyrhennian Sea se mueve a Gulf of Lyon",
+                "resolution": false,
+                "comment": "Conflicto 1vs1 contra la flota de Piemonte que se mueve a Gulf of Lyon: no puede completar el movimiento"
+            },{
+                "text": "El ejercito de Viena se mueve a Galicia",
+                "resolution": true
+            },{
+                "text": "El ejercito de Budapest apoya al ejercito de Vienna que se mueve a Galicia",
+                "resolution": true
+            },{
+                "text": "El ejercito de Rumania se mueve a Bulgaria",
+                "resolution": true,
+                "comment": "Conflicto 3vs2 contra el ejercito de Bulgaria: puede completar el movimiento"
+            },{
+                "text": "El ejercito de Serbia apoya al ejercito de Rumania que se mueve a Bulgaria",
+                "resolution": true
+            }]
+        },{
+            "name": "Francia",
+            "commands": [{
+                "text": "El ejercito de Gascony se mueve a Paris",
+                "resolution": false,
+                "comment": "Conflicto 1vs2 contra el ejercito de Burgundy que se mueve a Paris que se mueve a Rumania con apoyo de el ejercito de Picardy: no puede completar el movimiento"
+            },{
+                "text": "El ejercito de Marseilles se mueve a Spain",
+                "resolution": false,
+                "comment": "Conflicto 1vs1 contra la flota de West Mediterranean que se mueve a Spain SCa: no puede completar el movimiento"
+            },{
+                "text": "El ejercito de Wales se mueve a Liverpool",
+                "resolution": true
+            },{
+                "text": "La flota de Piemonte se mueve a Gulf of Lyon",
+                "resolution": false,
+                "comment": "Conflicto 1vs1 contra la flota de Tyrhennian Sea que se mueve a Gulf of Lyon: no puede completar el movimiento"
+            },{
+                "text": "La flota de Londres apoya a la flota de Noruega que se mueve al Mar del Norte",
+                "resolution": false,
+                "comment": "No existe el movimiento: el apoyo se anula"
+            }]
+        },{
+            "name": "Italia",
+            "commands": [{
+                "text": "El ejercito de Venezia se mueve a Piemonte",
+                "resolution": true,
+                "comment":"Conflicto 2vs1 contra la flota de Piemonte: puede completar el movimiento"
+            },{
+                "text": "La flota de Tuscany apoya al ejército de Venezia que se mueve a Piemonte",
+                "resolution": true
+            },{
+                "text": "La flota de West Mediterranean se mueve a Spain SC",
+                "resolution": false,
+                "comment": "Conflicto 1vs1 contra el ejercito de Marseilles que se mueve a Spain: no puede completar el movimiento"
+            },{
+                "text": "El ejército de Greece apoya al ejército de Rumania que se mueve a Bulgaria",
+                "resolution": true
+            },{
+                "text": "La flota de Aegean Sea apoya al ejército de Rumania que se mueve a Bulgaria",
+                "resolution": false,
+                "comment":"Ha participado en un conflicto con la flota de Constantinople: apoyo anulado"
+            }]
+        },{
+            "name": "Rusia",
+            "commands": [{
+                "text": "La flota de Stevastopol se mueve a Rumania",
+                "resolution": true
+            },{
+                "text": "El ejercito de Galicia apoya a la flota de Stevastopol que se mueve a Rumania",
+                "resolution": false,
+                "comment": "Ha participado en un conflicto con el ejercito de Vienna que se mueve a Galicia: apoyo anulado"
+            },{
+                "text": "El ejercito de Ukraine se mueve a Warsaw",
+                "resolution": true
+            }]
+        },{
+            "name": "Turquía",
+            "commands": [{
+                "text": "El ejercito de Bulgaria se mueve a Serbia",
+                "resolution": false,
+                "comment": "Conflicto 1vs1 contra el ejercito de Serbia: no puede completar el movimiento"
+            },{
+                "text": "La flota de Constantinople se mueve a Aegean Sea",
+                "resolution": false,
+                "comment": "Conflicto 1vs1 contra la flota de Aegean Sea: no puede completar el movimiento"
+            },{
+                "text": "La flota de Black Sea apoya al ejercito de Bulgaria",
+                "resolution": true
+            },{
+                "text": "El ejercito de Armenia se mueve a Smyrna",
+                "resolution": true
+            }]
+        }]
+    },{
+        "type": "b",
+        "info": {
+            "list":[
+                "La flota francesa de Piemonte debe retirarse",
+                "El ejercito ruso de Galicia debe retirarse",
+                "El ejercito turco de Bulgaria debe retirarse"
+            ]
+        }
     }]
 }]
