@@ -752,6 +752,26 @@
                 "El ejercito ruso de Galicia debe retirarse",
                 "El ejercito turco de Bulgaria debe retirarse"
             ]
+        },
+        "countryCommands": [{
+            "name": "Alemania",
+            "commands": [{
+                "text": "El ejercito de Galicia se retira a Ukraine",
+                "resolution": true
+            }]
+        }]
+    },{
+        "type": "c",
+        "info": {
+            "list": [
+                "Alemania tiene 6 unidades y controla 7 centros de suministro: puede construir una unidad",
+                "Austria tiene 5 unidades y controla 5 centros de suministro",
+                "Francia tiene 4 unidades y controla 6 centros de suministro: puede construir dos unidades",
+                "Italia tiene 5 unidades y controla 5 centros de suministro: puede construir una unidad",
+                "Inglaterra tiene 1 unidades y controla 1 centros de suministro",
+                "Rusia tiene 5 unidades y controla 7 centros de suministro",
+                "Turquía tiene 3 unidades y controla 3 centros de suministro"
+            ]
         }
     }]
 }]
