@@ -772,6 +772,27 @@
                 "Rusia tiene 5 unidades y controla 7 centros de suministro: puede construir dos unidades",
                 "Turquía tiene 3 unidades y controla 3 centros de suministro"
             ]
-        }
+        },
+        "countryCommands": [{
+            "name": "Alemania",
+            "commands": [{
+                "text": "Construir flota en Kiel",
+                "resolution": true
+            }]
+        },{
+            "name": "Rusia",
+            "commands": [{
+                "text": "Construir ejercito en Stevastopol",
+                "resolution": true
+            },{
+                "text": "Construir ejercito en Moscow",
+                "resolution": true
+            }]
+        }]
+    }]
+},{
+    "turnNumber": 7,
+    "steps": [{
+        "type": "a"
     }]
 }]
