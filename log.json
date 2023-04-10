@@ -905,7 +905,7 @@
                 "text": "La flota de North Sea apoya al ejercito de Brest que se mueve a London via transporte",
                 "resolution": true
             },{
-                "text": "La flota de Denmark apolla a la flota de North Sea",
+                "text": "La flota de Denmark apoya a la flota de North Sea",
                 "resolution": true
             },{
                 "text": "La flota de English Channel transporta al ejercito de Brest a London",
@@ -970,7 +970,7 @@
                 "resolution": false,
                 "comment": "Conflicto 1vs2 contra el ejercito de Rumania: no puede completar el movimiento"
             },{
-                "text": "El ejercito de Ukraine apoya a la flota de Stevastopol que se muebe a Rumania",
+                "text": "El ejercito de Ukraine apoya a la flota de Stevastopol que se mueve a Rumania",
                 "resolution": false,
                 "comment": "Ha participado en un conflicto con el ejercito de Galicia que se mueve a Ukraine: apoyo anulado"
             },{
