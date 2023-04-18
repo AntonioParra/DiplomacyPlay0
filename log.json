@@ -282,7 +282,7 @@
                 "text": "La flota de Portugal se mueve Spain SC",
                 "resolution": true
             },{
-                "text": "El ejercito de Spain se muebe a Marseilles",
+                "text": "El ejercito de Spain se mueve a Marseilles",
                 "resolution": true
             },{
                 "text": "El ejercito de Marseilles se mueve a Burgundy",
@@ -538,7 +538,7 @@
                 "resolution": true,
                 "comment": "Conflicto 2vs1 contra el ejercito de Piemonte que se mueve a Marseilles: puede completar el movimiento"
             },{
-                "text": "El ejercito de Marseilles apoya a la flota de Gulf of Lyon que se muebe a Piamonte",
+                "text": "El ejercito de Marseilles apoya a la flota de Gulf of Lyon que se mueve a Piamonte",
                 "resolution": true
             },{
                 "text": "El ejercito de Burgundy se mueve a Gascony",
@@ -998,6 +998,149 @@
                 "Rusia tiene 7 unidades y controla 7 centros de suministro",
                 "Turquía tiene 3 unidades y controla 2 centros de suministro: debe destruir una unidad"
             ]
+        },
+        "countryCommands": [{
+            "name": "Alemania",
+            "commands": [{
+                "text": "Construir flota en Berlin",
+                "resolution": true
+            },{
+                "text": "Construir ejercito en Munich",
+                "resolution": true
+            }]
+        },{
+            "name": "Austria",
+            "commands": [{
+                "text": "Construir ejercito en Trieste",
+                "resolution": true
+            }]
+        },{
+            "name": "Italia",
+            "commands": [{
+                "text": "Construir flota en Napoli",
+                "resolution": true
+            },{
+                "text": "Construir ejercito en Venezia",
+                "resolution": true
+            },{
+                "text": "Construir ejercito en Roma",
+                "resolution": true
+            }]
+        }]
+    }]
+},{
+    "turnNumber": 9,
+    "steps": [{
+        "type": "a",
+        "countryCommands": [{
+            "name": "Alemania",
+            "commands": [{
+                "text": "El ejercito de Munich apoya al ejercito de Silesia",
+                "resolution": true
+            },{
+                "text": "La flota de Berlin se mueve a Kiel",
+                "resolution": true
+            },{
+                "text": "La flota de Denmark apoya a la flota de North Sea",
+                "resolution": true
+            },{
+                "text": "La flota de North Sea apoya a la flota de Denmark",
+                "resolution": true
+            },{
+                "text": "El ejercito de London se mueve a York",
+                "resolution": true
+            },{
+                "text": "La flota de English Channel se mueve a Irish Sea",
+                "resolution": true
+            },{
+                "text": "El ejercito de Brest se mueve a Paris",
+                "resolution": true
+            },{
+                "text": "El ejercito de Gascony se mueve a Burgundy",
+                "resolution": true
+            },{
+                "text": "El ejercito de Silesia apoya al ejercito de Galicia",
+                "resolution": true
+            }]
+        },{
+            "name": "Austria",
+            "commands": [{
+                "text": "La flota de Aegean Sea se mueve a Constantinople",
+                "resolution": true,
+                "comment": "Conflcito 2vs1 contra la flota de Constantinople: puede completar el movimiento"
+            },{
+                "text": "El ejercito de Bulgaria apoya a la flota de Aegean que se mueve a Constantinople",
+                "resolution": true
+            },{
+                "text": "El ejercito de Trieste se mueve a Serbia",
+                "resolution": true
+            },{
+                "text": "El ejercito de Rumania se mueve a Stevastopol",
+                "resolution": true
+            },{
+                "text": "El ejercito de Galicia se mueve a Ukraine",
+                "resolution": false,
+                "comment": "Conflicto 1vs1 contra el ejercito de Ukraine: no puede completar el movimiento"
+            },{
+                "text": "El ejercito de Budapest apoya al ejercito de Rumania",
+                "resolution": true
+            }]
+        },{
+            "name": "Italia",
+            "commands": [{
+                "text": "La flota de Greece apoya a la flota de Npoli que se mueve a Ionian Sea",
+                "resolution": true
+            },{
+                "text": "El ejercito de Albania apoya a la flota de Greece",
+                "resolution": true
+            },{
+                "text": "La flota de Napoli se mueve a Ionian Sea",
+                "resolution": true
+            },{
+                "text": "El ejercito de Venezia se mueve a Tyrolia",
+                "resolution": true
+            },{
+                "text": "El ejercito de Roma se mueve a Venezia",
+                "resolution": true
+            },{
+                "text": "El ejercito de Marseilles se mueve a Piemonte",
+                "resolution": true
+            },{
+                "text": "La flota de Spain SC se mueve a West Mediterranean",
+                "resolution": true
+            },{
+                "text": "La flota de Portugal se mueve Spain SC",
+                "resolution": true
+            }]
+        },{
+            "name": "Rusia",
+            "commands": [{
+                "text": "El ejercito de Varsovia se mueve a Galicia",
+                "resolution": false,
+                "comment": "Conflicto 2vs2 contra el ejercito de Galicia: no puede completar el movimiento"
+            },{
+                "text": "El ejercito de Ukraine apoya al ejercito Warsaw",
+                "resolution": true
+            },{
+                "text": "El ejercito de Livonia se mueve a Warsaw",
+                "resolution": false,
+                "comment": "Ya hay una unidad propia en Warsaws: no puede completar el movimiento"
+            },{
+                "text": "La flota de Stevastopol se mueve a Black Sea",
+                "resolution": true
+            }]
+        }]
+    },{
+        "type": "b",
+        "info": {
+            "list":[
+                "La flota turca de Constantinople debe retirarse"
+            ]
         }
+    }]
+},{
+    "turnNumber": 10,
+    "steps": [{
+        "type": "a"
     }]
 }]
