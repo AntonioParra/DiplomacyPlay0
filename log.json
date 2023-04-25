@@ -1247,5 +1247,17 @@
                 "El ejercito autriaco de Stevastopol debe retirarse"
             ]
         }
+    },{
+        "type": "c",
+        "info": {
+            "list":[
+                "Alemania tiene 9 unidades y controla 10 centros de suministro: puede construir una unidad",
+                "Austria tiene 6 unidades y controla 6 centros de suministro",
+                "Italia tiene 8 unidades y controla 9 centros de suministro: puede construir una unidad",
+                "Inglaterra tiene 1 unidades y controla 1 centros de suministro",
+                "Rusia tiene 7 unidades y controla 6 centros de suministro: debe destruir una unidad",
+                "Turquía tiene 1 unidades y controla 2 centros de suministro: puede construir una unidad"
+            ]
+        }
     }]
 }]
