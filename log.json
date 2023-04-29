@@ -1266,6 +1266,12 @@
                 "resolution": true
             }]
         },{
+            "name": "Austria",
+            "commands": [{
+                "text": "Construir ejercito en Vienna",
+                "resolution": true
+            }]
+        },{
             "name": "Italia",
             "commands": [{
                 "text": "Construir ejercito en Venezia",
