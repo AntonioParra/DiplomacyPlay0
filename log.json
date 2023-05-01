@@ -1288,6 +1288,76 @@
 },{
     "turnNumber": 11,
     "steps": [{
+        "type": "a",
+        "countryCommands": [{
+            "name": "Alemania",
+            "commands": [{
+                "text": "El ejercito de York se mueve a Edinburgh",
+                "resolution": true,
+                "comment": "Conflcito 2vs1 contra el ejercito de Edinburgh: puede completar el movimiento"
+            },{
+                "text": "La flota de North Sea apoya al ejercito de York que se mueve a Edinburgh",
+                "resolution": true
+            },{
+                "text": "La flota de Liverpool se mueve a Clyde",
+                "resolution": true
+            },{
+                "text": "Construir ejercito en Berlin",
+                "resolution": true
+            }]
+        },{
+            "name": "Italia",
+            "commands": [{
+                "text": "La flota de Greece se mueve a Bulgaria SC",
+                "resolution": true,
+                "comment": "Conflcito 2vs1 contra el ejercito de Bulgaria: puede completar el movimiento"
+            },{
+                "text": "La flota de Aegean Sea apoya a la flota de Greece que se mueve a Bulgaria SC",
+                "resolution": true
+            },{
+                "text": "El ejercito de Trieste se mueve a Serbia",
+                "resolution": true
+            },{
+                "text": "El ejercito de Albania apoya al ejercito de Trieste que se mueve a Serbia",
+                "resolution": true
+            },{
+                "text": "El ejercito de Venezia se mueve a Trieste",
+                "resolution": true
+            },{
+                "text": "El ejercito de Tyrolia apoya al ejercito de Venezia que se mueve a Trieste",
+                "resolution": true
+            },{
+                "text": "El ejercito de Piemonte apoya al ejercito de Venezia que se mueve a Trieste",
+                "resolution": true
+            }]
+        },{
+            "name": "Rusia",
+            "commands": [{
+                "text": "El ejercito de Armenia se mueve a Ankara",
+                "resolution": false,
+                "comment": "Conflicto 1vs1 contra el ejercito de Ankara: no puede completar el movimiento"
+            },{
+                "text": "El ejercito de Varsaw se mueve a Galica",
+                "resolution": true,
+                "comment": "Conflicto 2vs1 contra el ejercito de Galicia: puede completar el movimiento"
+            },{
+                "text": "El ejercito de Ukraine apoya al ejercito de Warsaw que se mueve a Galica",
+                "resolution": true
+            }]
+        }]
+    },{
+        "type": "b",
+        "info": {
+            "list":[
+                "El ejercito inglés de Edinburgh debe retirarse",
+                "El ejercito austriaco de Galicia debe retirarse",
+                "El ejercito austriaco de Bulgaria debe retirarse"
+            ]
+        }
+    }]
+},{
+    "turnNumber": 12,
+    "steps":[{
         "type": "a"
     }]
 }]
