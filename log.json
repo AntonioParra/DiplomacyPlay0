@@ -1358,6 +1358,92 @@
 },{
     "turnNumber": 12,
     "steps":[{
-        "type": "a"
+        "type": "a",
+        "countryCommands": [{
+            "name": "Alemania",
+            "commands": [{
+                "text": "La flota de Clyde se mueve a Norwegian Sea",
+                "resolution": true
+            },{
+                "text": "El ejercito de Silesia se mueve a Warsaw",
+                "resolution": false,
+                "comment": "Conflicto 2vs2 contra el ejercito de Galicia que se mueve a Warsaw: no puede completar el movimiento"
+            },{
+                "text": "El ejercito de Prussia apoya al ejercito de Silesia que se mueve a Warsaw",
+                "resolution": true
+            },{
+                "text": "El ejercito de Berlin se mueve a Silesia",
+                "resolution": false,
+                "comment": "Ya hay una unidad propia en Silesia: no puede completar el movimiento"
+            },{
+                "text": "La flota de Kiel se mueve a Baltic Sea",
+                "resolution": true
+            }]
+        },{
+            "name": "Italia",
+            "commands": [{
+                "text": "La flota de Aegean Sea se mueve a Constantinople",
+                "resolution": true
+            },{
+                "text": "La flota de Bulgaria apoya al ejercito de Rumania",
+                "resolution": true
+            },{
+                "text": "El ejercito de Serbia apoya al ejercito de Rumania",
+                "resolution": true
+            },{
+                "text": "El ejercito de Trieste se mueve a Vienna",
+                "resolution": true,
+                "comment": "Conflcito 2vs1 contra el ejercito de Vienna: puede completar el movimiento"
+            },{
+                "text": "El ejercito de Tyrolia apoya al ejercito de Trieste que se mueve a Vienna",
+                "resolution": true
+            },{
+                "text": "El ejercito de Albania se mueve a Trieste",
+                "resolution": true
+            },{
+                "text": "La flota de Spain SC se mueve a Portugal",
+                "resolution": true
+            },{
+                "text": "La flota de Marseilles se mueve a Spain SC",
+                "resolution": true
+            },{
+                "text": "El ejercito de Piemonte apoya al ejercito de Tyrolia",
+                "resolution": true
+            }]
+        },{
+            "name": "Rusia",
+            "commands": [{
+                "text": "El ejercito de Galicia se mueve a Warsaw",
+                "resolution": false,
+                "comment": "Conflicto 2vs2 contra el ejercito de Silesia que se mueve a Warsaw: no puede completar el movimiento"
+            },{
+                "text": "El ejercito de Ukraine apoya al ejercito de Galicia que se mueve a Warsaw",
+                "resolution": true
+            },{
+                "text": "La flota de Stevastopol se mueve a Black Sea",
+                "resolution": true
+            },{
+                "text": "El ejercito de Armenia se mueve a Stevastopol",
+                "resolution": true
+            }]
+        }]
+    },{
+        "type": "b",
+        "info": {
+            "list": [
+                "El ejercito austriaco de Vienna debe retirarse"
+            ]
+        }
+    },{
+        "type": "c",
+        "info": {
+            "list": [
+                "Alemania tiene 10 unidades y controla 1 centros de suministro: puede construir una unidad",
+                "Austria tiene 3 unidades y controla 3 centros de suministro",
+                "Italia tiene 9 unidades y controla 13 centros de suministro: puede construir cuatro unidades",
+                "Rusia tiene 6 unidades y controla 6 centros de suministro",
+                "Turquía tiene 1 unidades y controla 1 centros de suministro"
+            ]
+        }
     }]
 }]
