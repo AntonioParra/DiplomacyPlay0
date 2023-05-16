@@ -1564,6 +1564,18 @@
                 "El ejercito austriaco de Budapest debe retirarse",
                 "La flota rusa de Norway debe retirarse"
             ]
-        }
+        },
+        "countryCommands": [{
+            "name": "Rusia",
+            "commands": [{
+                "text": "La flota de Norway se retira a Saint Petersburg",
+                "resolution": true
+            }]
+        }]
+    }]
+},{
+    "turnNumber": 14,
+    "steps": [{
+        "type": "a"
     }]
 }]
