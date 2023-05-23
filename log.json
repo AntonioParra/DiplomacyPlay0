@@ -1576,6 +1576,81 @@
 },{
     "turnNumber": 14,
     "steps": [{
-        "type": "a"
+        "type": "a",
+        "countryCommands": [{
+            "name": "Alemania",
+            "commands": [{
+                "text": "La flota de North Sea transporta alejercito de Edimburgh que se mueve a Belgium",
+                "resolution": true
+            },{
+                "text": "El ejercito de Edinburgh se mueve a Belgium via transporte",
+                "resolution": true
+            },{
+                "text": "La flota de Baltic Sea transporta al ejercito de Berlin que se mueve a Livonia",
+                "resolution": true
+            },{
+                "text": "El ejercito de Berlin se mueve a Livonia via transporte",
+                "resolution": true
+            },{
+                "text": "El ejercito de Silesia se mueve a Warsaw",
+                "resolution": true
+            },{
+                "text": "El ejercito de Prussia apoya al ejercito de Silesia que se mueve a Warsaw",
+                "resolution": true
+            },{
+                "text": "El ejercito de Bohemia se muebe a Galicia",
+                "resolution": false,
+                "comment": "Conflicto 1vs1 contra el ejercito de Galicia: no puede completar el movimiento"
+            },{
+                "text": "El ejercito de Munich se mueve a Silesia",
+                "resolution": true
+            }]
+        },{
+            "name": "Italia",
+            "commands": [{
+                "text": "El ejercito de Serbia se mueve a Rumania",
+                "resolution": true,
+                "comment": "Conflicto 3vs1 contra el ejercito de Rumania: puede completar el movimiento"
+            },{
+                "text": "La flota de Bulgaria EC apoya al ejercito de Serbia que se mueve a Rumania",
+                "resolution": true
+            },{
+                "text": "El ejercito de Budapest apoya al ejercito de Serbia que se mueve a Rumania",
+                "resolution": true
+            },{
+                "text": "La flota de Ionian Sea se mueve a Aegean Sea",
+                "resolution": true
+            },{
+                "text": "El ejercito de Venezia se mueve a Piemonte",
+                "resolution": true
+            },{
+                "text": "El ejercito de Trieste apoya al ejercito de Tyrolia",
+                "resolution": true
+            },{
+                "text": "El ejercito de Vienna apoya al ejercito de Tyrolia",
+                "resolution": true
+            },{
+                "text": "El ejercito de Tyrolia apoya al ejercito de Vienna",
+                "resolution": true
+            }]
+        }]
+    },{
+        "type": "b",
+        "info": {
+            "list": [
+                "El ejercito austriaco de Rumania debe retirarse"
+            ]
+        }
+    },{
+        "type": "c",
+        "info": {
+            "list": [
+                "Alemania tiene 11 unidades y controla 14 centros de suministro: puede construir tres unidades",
+                "Austria tiene 1 unidades y controla 1 centros de suministro",
+                "Italia tiene 12 unidades y controla 15 centros de suministro: puede construir tres unidades",
+                "Rusia tiene 6 unidades y controla 3 centros de suministro: debe destruir tres unidades",
+                "Turquía tiene 1 unidades y controla 1 centros de suministro"
+            ]
+        }
     }]
 }]
