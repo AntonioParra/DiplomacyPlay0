@@ -1651,6 +1651,59 @@
                 "Rusia tiene 6 unidades y controla 3 centros de suministro: debe destruir tres unidades",
                 "Turquía tiene 1 unidades y controla 1 centros de suministro"
             ]
-        }
+        },
+        "countryCommands": [{
+            "name": "Alemania",
+            "commands": [{
+                "text": "Construir ejercito en Berlin",
+                "resolution": true
+            },{
+                "text": "Construir ejercito en Kiel",
+                "resolution": true
+            },{
+                "text": "Construir ejercito en Munich",
+                "resolution": true
+            }]
+        },{
+            "name": "Italia",
+            "commands": [{
+                "text": "Construir ejercito en Venezia",
+                "resolution": true
+            },{
+                "text": "Construir flota en Roma",
+                "resolution": true
+            },{
+                "text": "Construir flota en Napoli",
+                "resolution": true
+            }]
+        }]
+    }]
+},{
+    "turnNumber": 15,
+    "steps":[{
+        "type": "a"
+    },{
+        "type": "b"
+    }]
+},{
+    "turnNumber": 16,
+    "steps":[{
+        "type": "a"
+    },{
+        "type": "b"
+    },{
+        "type": "c"
+    }]
+},{
+    "turnNumber": 17,
+    "steps":[{
+        "type": "a"
+    },{
+        "type": "b"
+    }]
+},{
+    "turnNumber": 18,
+    "steps":[{
+        "type": "a"
     }]
 }]
